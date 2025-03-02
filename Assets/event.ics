@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Your Organization//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:uid1@example.com
+DTSTAMP:20250101T120000Z
+ORGANIZER;CN=Ash and Leo:MAILTO:ashandleo@example.com
+DTSTART:20250809T230000Z
+DTEND:20250810T010000Z
+SUMMARY:Ash and Leo's Wedding
+DESCRIPTION:Join us for our wedding celebration!
+LOCATION:Pioneer Park, 1200 South Third Street, La Conner, WA 98257
+URL:https://www.ashandleowedding.com
+END:VEVENT
+END:VCALENDAR
