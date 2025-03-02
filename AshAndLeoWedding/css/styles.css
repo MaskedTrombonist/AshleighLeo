@@ -129,6 +129,8 @@ h3 {
 ul {
     list-style-type: disc;
     text-align: left;
+    width: 50%;
+    margin: 20px auto;
 }
 ul li::marker {
     color: var(--light-pink); /* Set the bullet color to light pink */
@@ -198,6 +200,22 @@ p{
 }
 .scroll-to-top:hover {
     background-color: var(--light-pink);
+}
+.back-arrow {
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--rose-taupe);
+    padding: 5px 10px;
+    border-width: 0;
+    z-index: 2;
+
+}
+.back-arrow:hover {
+    text-shadow: 0 6px 8px rgba(0, 0, 0, 0.15)
 }
 
 /* #endregion */
